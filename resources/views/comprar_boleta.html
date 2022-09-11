@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../sass/custom.css">
+    <title>Cine</title>
+    <script defer type="module" src="../js/comprar_boleto.js"></script>
+</head>
+
+<body>
+    <div class="row bg-dark">
+        <div class="col-3">
+            <img src="../img/—Pngtree—cinema popcorn vector png_3247726.png" alt="LOGO"
+                class="border border-warning border-3 m-2 rounded-circle position-absolute top-0 start-0" width=180px
+                height=180px>
+        </div>
+        <div class="col-9">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fs-4 ps-5">
+                <div class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="../../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="./cartelera.html">Cartelera</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="./comprar_boleta.html">Comprar Boleto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex form-inline ">
+                        <input class="form-control " type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-danger ms-2 text-white " type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <main class="container vh-100 ">
+        <div class="row  m-4 d-flex justify-content-center">
+            <h3 class="col-4 text-end"> Nombre De La Película </h3>
+            <div class="col-2">
+                <div class="row">
+                    <h3 class="col-12">Fecha</h3>
+                    <p class="col-12 ms-4">Hora</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-12 shadow border border-secondary border-3 rounded-3 position-relative mb-5">
+                        <div class="row mb-3 mt-5 d-flex justify-content-center">
+                            <label for="inputCantBoletos" class="col-3 col-form-label text-end">Cantidad de
+                                boletos</label>
+                            <div class="col-2">
+                                <input type="text" class="form-control" id="inputCantBoletos">
+                            </div>
+                            <label for="inputSillasDisponibles" class="col-3 col-form-label text-end">Cantidad de sillas
+                                disponibles</label>
+                            <div class="col-2">
+                                <input type="text" class="form-control" id="inputSillasDisponibles">
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <h3 class="col-12 fs-5">Seleccione su combo</h3>
+                        </div>
+
+                        <div class="row d-flex flex-row justify-content-center mt-3 mb-5">
+                            <div class="col-2 form-check form-check-inline">
+                                <label class="form-check-label" for="inlineRadio1">Combo 1</label>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                            </div>
+                            <div class="col-2 form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Combo 2</label>
+                            </div>
+                            <div class="col-2 form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                    value="option3">
+                                <label class="form-check-label" for="inlineRadio3">Combo 3</label>
+                            </div>
+                            <div class="col-2 form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                    value="option3">
+                                <label class="form-check-label" for="inlineRadio3">Combo 4</label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row  shadow border border-secondary border-3 rounded-3 position-relative mt-5">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h3 class="m-5">Total</h3>
+                        <label class="m-5 fs-3"> $ 0.000.000</label>
+                        <div class="col-12 text-center position-absolute top-100 start-50 translate-middle">
+                            <button type="button" class="shadow btn btn-secondary fs-4 w-50">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 shadow-lg ps-5 border-start border-3 border-dark boder-3 m-5 mt-3">
+                <div class="row">
+                    <div class="col-5 me-5 pb-3">
+                        <div class="card " style="width: 15rem;">
+                            <img src="../img/combo1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">$25.000</h5>
+                                <p class="card-text">Crispetas pequeñas y gaseosa pequeña</p>
+                            </div>
+                        </div>
+                        <div class="card mt-3" style="width: 15rem;">
+                            <img src="../img/combo1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">$25.000</h5>
+                                <p class="card-text">Crispetas pequeñas y gaseosa pequeña</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 ms-5">
+                        <div class="card" style="width: 15rem;">
+                            <img src="../img/combo1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">$25.000</h5>
+                                <p class="card-text">Crispetas pequeñas y gaseosa pequeña</p>
+                            </div>
+                        </div>
+                        <div class="card mt-3" style="width: 15rem;">
+                            <img src="../img/combo1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">$25.000</h5>
+                                <p class="card-text">Crispetas pequeñas y gaseosa pequeña</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="container mw-100">
+        <div class="row bg-dark p-4 fs-4 text-white-50">
+            <div class="col-3 m-3">
+                <p class="">Nombre de la Sala</p>
+            </div>
+            <div class="col-3 m-3">
+                <p class="">Número de soporte: xxx-xxx</p>
+                <p class="">Correo Electronico: xxxxxx@xxxx.xxx</p>
+            </div>
+            <div class="col-3 m-3">
+                <p class="">Dirección: xxx-xxxx-xx</p>
+
+                <div class="d-flex">
+                    <p class="">Redes Sociales</p>
+                    <img src="../img/facebook.png" alt="" width=35px height=30px>
+                    <img src="../img/instagram.png" width=30px height=30px alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <p>2022</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
