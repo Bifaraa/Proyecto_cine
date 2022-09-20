@@ -1,0 +1,34 @@
+[
+    {
+        "nombre":"Tor",
+        "año":"2022",
+        "genero":"Acción/Aventura",
+        "duracion":"1h 59m",
+        "descripcion": "Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Allí, sin sus poderes, Thor deberá enfrentarse a las fuerzas más oscuras que su mayor enemigo le enviará desde Asgard.",
+         "img":"thor.png"
+    },
+    {
+        "nombre":"DC Liga de Supermascotas",
+        "año":"2022",
+        "genero":"Aventura/Ciencia ficción",
+        "duracion":"1h 45m",
+        "descripcion": "El superperro Krypto une a un grupo de divertidos y descerebrados animales para que lo ayuden a rescatar a los superhéroes de la Liga de la Justicia, que han sido secuestrados.",
+        "img":"liga_perruna.jpeg"
+    },
+    {
+        "nombre":"Fall",
+        "año":"2022",
+        "genero":"Aventura/Ciencia ficción",
+        "duracion":"1h 47m",
+        "descripcion": "El superperro Krypto une a un grupo de divertidos y descerebrados animales para que lo ayuden a rescatar a los superhéroes de la Liga de la Justicia, que han sido secuestrados.",
+        "img":"vertigo.jpeg"
+    },
+    {
+        "nombre":"DC Liga de Supermascotas",
+        "año":"2022",
+        "genero":"Aventura/Ciencia ficción",
+        "duracion":"1h 45m",
+        "descripcion": "El superperro Krypto une a un grupo de divertidos y descerebrados animales para que lo ayuden a rescatar a los superhéroes de la Liga de la Justicia, que han sido secuestrados.",
+        "img":"liga_perruna.jpeg"
+    }
+]

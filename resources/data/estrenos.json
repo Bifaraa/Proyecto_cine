@@ -1,0 +1,34 @@
+[
+    {
+        "nombre":"Hasta el último hombre",
+        "año":"2016",
+        "genero":"Bélico/Drama",
+        "duracion":"2h 19m",
+        "descripcion": "La historia de Desmond T. Doss, quien, debido a que se lo prohibía su fe, combatió en la Segunda Guerra Mundial sin portar un arma. No disparó ni una bala, pero salvó a 75 personas de la muerte en la batalla de la isla de Okinawa. Gracias a su coraje, pasó de ser el objeto de las burlas de sus compañeros a reconocérsele su enorme valía con la entrega de la Medalla de Honor del Congreso, otorgada por primera vez a un objetor de conciencia.",
+        "img":"ultimo_hombre.jpg"
+    },
+    {
+        "nombre":"Encanto",
+        "año":"2022",
+        "genero":"Musical/Infantil",
+        "duracion":"1h 49m",
+        "descripcion": "Una joven colombiana puede ser la última esperanza para su familia, cuando descubre que la magia que rodea a Encanto, un lugar encantado que bendice a los niños con dones únicos, se encuentra en serio peligro.",
+        "img":"encanto.jpeg"
+    },
+    {
+        "nombre":"La La Land: ciudad de sueños",
+        "año":"2016",
+        "genero":"Musical/Romance",
+        "duracion":"2h 8m",
+        "descripcion": "Sebastian, un pianista de jazz, y Mia, una aspirante a actriz, se enamoran locamente; pero la ambición desmedida que tienen por triunfar en sus respectivas carreras, en una ciudad como Los Ángeles, repleta de competencia y carente de piedad, pone en peligro su amor.",
+        "img":"laland.jpeg"
+    },
+    {
+        "nombre":"Encanto",
+        "año":"2022",
+        "genero":"Musical/Infantil",
+        "duracion":"1h 49m",
+        "descripcion": "Una joven colombiana puede ser la última esperanza para su familia, cuando descubre que la magia que rodea a Encanto, un lugar encantado que bendice a los niños con dones únicos, se encuentra en serio peligro.",
+        "img":"encanto.jpeg"
+    }
+]

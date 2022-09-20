@@ -1,0 +1,25 @@
+{   
+    "usuario_1": {
+        "nombre":"Andres Zuluaga",
+        "celular":"3104748909",
+        "correo":"usuario1@gmail.com",
+        "contraseña":"123",
+        "puntos":"100"
+    },
+
+    "usuario_2": {
+        "nombre":"Valentina Gavis",
+        "celular":"3224678903",
+        "correo":"usuario2@gmail.com",
+        "contraseña":"123",
+        "puntos":"200"
+    },
+
+    "usuario_3": {
+        "nombre":"Jorge Giraldo",
+        "celular":"3224678903",
+        "correo":"usuario3@gmail.com",
+        "contraseña":"123",
+        "puntos":"300"
+    }
+}

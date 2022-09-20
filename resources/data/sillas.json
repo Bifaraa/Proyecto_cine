@@ -1,0 +1,17 @@
+{
+    "sala_1": {
+        "peliculas":[
+            "Hasta el ultimo hombre",
+            "Encanto"
+        ],
+        "sillas":4
+    },
+
+    "sala_2":{
+        "peliculas":[
+            "Hasta el ultimo hombre",
+            "Laland"
+        ],
+        "sillas":7
+    } 
+}
